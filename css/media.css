@@ -1,0 +1,141 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header start*/
+.menu ul li a{
+	text-align: center;	
+}
+.logo{
+	width: 140px;
+}
+/*banner start*/
+.b_content{
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.b_content h1{
+	font-size: 23px;
+}
+/*education start*/
+.c_tittle h1{
+	font-size: 23px;
+}
+.school h1{
+	font-size: 30px;
+}
+.school img{
+	width: 150px;
+}
+.school img{
+	margin: 20px 0;
+}
+.school hr {
+    width: 141px;
+    margin-left: 0;
+}
+/*courses start*/
+.courses{
+		text-align: center;
+	}
+	.courses_heading h1{
+		font-size: 35px;
+		}
+	.courses_card{
+		padding: 0;
+	margin-top: 50px;
+		margin-left: 40px;
+	}
+	.card_singel{
+		margin-right: 0px;
+		margin-left: 30px;
+	}
+	/*memory start*/
+	.memory{
+		text-align: center;
+	}
+	.teacher{
+		text-align: center;
+	}
+	.teacher-heading{
+		font-size: 35px;
+	}
+	.teacher_info{
+		margin-top: 50px;
+	}
+	.teacher_pic{
+		margin-bottom: 20px;
+	}
+
+
+}
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+.menu ul li a{
+	text-align: center;	
+}
+.logo{
+	width: 160px;
+}
+/*banner start*/
+.b_content{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.b_content h1{
+	font-size: 36px;
+}
+/*education start*/
+.school img{
+	width: 170px;
+}
+.school img{
+	margin: 20px 0;
+}
+
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+.menu ul li a{
+	text-align: right;
+}
+/*banner start*/
+.b_content{
+	margin-top: 130px;
+	margin-bottom: 130px;
+}
+.b_content h1{
+	font-size: 36px;
+}
+/*education start*/
+.school h1{
+	font-size: 33px;
+}
+.school hr {
+    width: 170px;
+    margin-left: 0;
+}
+.school img{
+	width: 180px;
+}
+.school_img img{
+	margin-top: 50px;
+}
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*education start*/
+.s_img{
+	margin-top: 40px;
+}
+
+}
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+
+}
